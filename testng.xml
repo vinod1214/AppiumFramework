@@ -7,8 +7,13 @@
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="android.AppiumFramework.Ecommerce_tc_4"/>
-      <class name="android.AppiumFramework.ApiDemoTest"/>
+    <class name="android.AppiumFramework.Ecommerce_tc_1"/>
+    <class name="android.AppiumFramework.Ecommerce_tc_2"/>
+    <class name="android.AppiumFramework.Ecommerce_tc_3"/>
+    <class name="android.AppiumFramework.Ecommerce_tc_4"/>
+    <class name="android.AppiumFramework.Ecommerce_tc_5"/>
+    <class name="android.AppiumFramework.Ecommerce_tc_6"/>
+    <class name="android.AppiumFramework.ApiDemoTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

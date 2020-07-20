@@ -1,0 +1,13 @@
+# Created at 2020-07-18T16:39:48.632
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-07-18T16:40:11.987
+Unexpected IOException: 5,1,android.AppiumFramework.Ecommerce_tc_1,fillForm(android.AppiumFramework.Ecommerce_tc_1),android.AppiumFramework.Ecommerce_tc_1,null,null
+
+

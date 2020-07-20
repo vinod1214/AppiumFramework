@@ -1,27 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="159393" started-at="2020-07-17T10:47:13 IST" finished-at="2020-07-17T10:49:52 IST">
+  <suite name="Suite" duration-ms="223296" started-at="2020-07-18T14:27:37 IST" finished-at="2020-07-18T14:31:20 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="159393" started-at="2020-07-17T10:47:13 IST" finished-at="2020-07-17T10:49:52 IST">
-      <class name="android.AppiumFramework.Ecommerce_tc_4">
-        <test-method status="PASS" signature="killNode()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_4@4eb7f003]" name="killNode" is-config="true" duration-ms="3031" started-at="2020-07-17T10:47:16 IST" finished-at="2020-07-17T10:47:19 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- killNode -->
-        <test-method status="PASS" signature="totalValidation()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_4@4eb7f003]" name="totalValidation" duration-ms="64227" started-at="2020-07-17T10:47:19 IST" finished-at="2020-07-17T10:48:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- totalValidation -->
-      </class> <!-- android.AppiumFramework.Ecommerce_tc_4 -->
+    <test name="Test" duration-ms="223296" started-at="2020-07-18T14:27:37 IST" finished-at="2020-07-18T14:31:20 IST">
       <class name="android.AppiumFramework.ApiDemoTest">
-        <test-method status="PASS" signature="killNode()[pri:0, instance:android.AppiumFramework.ApiDemoTest@eafc191]" name="killNode" is-config="true" duration-ms="3039" started-at="2020-07-17T10:47:13 IST" finished-at="2020-07-17T10:47:16 IST">
+        <test-method status="PASS" signature="killNode()[pri:0, instance:android.AppiumFramework.ApiDemoTest@1b26f7b2]" name="killNode" is-config="true" duration-ms="3029" started-at="2020-07-18T14:27:37 IST" finished-at="2020-07-18T14:27:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- killNode -->
-        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:android.AppiumFramework.ApiDemoTest@eafc191]" name="apiDemoTest" duration-ms="44825" started-at="2020-07-17T10:48:23 IST" data-provider="InputData" finished-at="2020-07-17T10:49:08 IST">
+        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:android.AppiumFramework.ApiDemoTest@1b26f7b2]" name="apiDemoTest" duration-ms="25700" started-at="2020-07-18T14:30:27 IST" data-provider="InputData" finished-at="2020-07-18T14:30:53 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
-        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:android.AppiumFramework.ApiDemoTest@eafc191]" name="apiDemoTest" duration-ms="44154" started-at="2020-07-17T10:49:08 IST" data-provider="InputData" finished-at="2020-07-17T10:49:52 IST">
+        <test-method status="PASS" signature="apiDemoTest(java.lang.String)[pri:0, instance:android.AppiumFramework.ApiDemoTest@1b26f7b2]" name="apiDemoTest" duration-ms="27341" started-at="2020-07-18T14:30:53 IST" data-provider="InputData" finished-at="2020-07-18T14:31:20 IST">
           <params>
             <param index="0">
               <value>
@@ -44,6 +34,42 @@
           </reporter-output>
         </test-method> <!-- apiDemoTest -->
       </class> <!-- android.AppiumFramework.ApiDemoTest -->
+      <class name="android.AppiumFramework.Ecommerce_tc_4">
+        <test-method status="PASS" signature="killNode()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_4@612679d6]" name="killNode" is-config="true" duration-ms="3027" started-at="2020-07-18T14:27:43 IST" finished-at="2020-07-18T14:27:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killNode -->
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_4@612679d6]" name="totalValidation" duration-ms="46814" started-at="2020-07-18T14:27:52 IST" finished-at="2020-07-18T14:28:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- android.AppiumFramework.Ecommerce_tc_4 -->
+      <class name="android.AppiumFramework.Ecommerce_tc_5">
+        <test-method status="PASS" signature="killNode()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_5@11758f2a]" name="killNode" is-config="true" duration-ms="3078" started-at="2020-07-18T14:27:46 IST" finished-at="2020-07-18T14:27:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killNode -->
+        <test-method status="PASS" signature="validateMobileGestures()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_5@11758f2a]" name="validateMobileGestures" duration-ms="43004" started-at="2020-07-18T14:28:39 IST" finished-at="2020-07-18T14:29:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMobileGestures -->
+      </class> <!-- android.AppiumFramework.Ecommerce_tc_5 -->
+      <class name="android.AppiumFramework.Ecommerce_tc_3">
+        <test-method status="PASS" signature="killNode()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_3@1060b431]" name="killNode" is-config="true" duration-ms="3015" started-at="2020-07-18T14:27:40 IST" finished-at="2020-07-18T14:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killNode -->
+      </class> <!-- android.AppiumFramework.Ecommerce_tc_3 -->
+      <class name="android.AppiumFramework.Ecommerce_tc_6">
+        <test-method status="PASS" signature="killNode()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_6@e720b71]" name="killNode" is-config="true" duration-ms="3019" started-at="2020-07-18T14:27:49 IST" finished-at="2020-07-18T14:27:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killNode -->
+        <test-method status="PASS" signature="performWebViewAction()[pri:0, instance:android.AppiumFramework.Ecommerce_tc_6@e720b71]" name="performWebViewAction" duration-ms="65140" started-at="2020-07-18T14:29:22 IST" finished-at="2020-07-18T14:30:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performWebViewAction -->
+      </class> <!-- android.AppiumFramework.Ecommerce_tc_6 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
